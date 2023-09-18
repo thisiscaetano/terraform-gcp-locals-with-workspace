@@ -5,11 +5,11 @@ variable "instance_name" {
 }
 
 variable "project_prod" {
-  default = "br-carrefour-devops"
+  default = ""
   sensitive = true
 }
 variable "project_qa" {
-  default = "c4-shared-nonprod-vpcs-br"
+  default = ""
   sensitive = true
 }
 
@@ -22,11 +22,11 @@ variable "machine_type_qa" {
   default     = "e2-medium"
 }
 variable "subnetwork_prod" {
-  default = "/projects/br-carrefour-devops/regions/us-east1/subnetworks/c4-subnet-devops-tools-br"
+  default = ""
   sensitive = true
 }
 variable "subnetwork_qa" {
-  default = "/projects/c4-shared-nonprod-vpcs-br/regions/us-east1/subnetworks/gcp-local-nonprod-br-middle-base"
+  default = ""
   sensitive = true
 }
 
